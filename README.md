@@ -47,7 +47,7 @@ Forking the repo will create your own copy of the repo, you could push changes t
 
 [] **Mehul**
 
-[] **K Sai Rachna**
+[x] **K Sai Rachna**
 
 [] **Aditi**
 
