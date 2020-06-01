@@ -47,7 +47,11 @@ Forking the repo will create your own copy of the repo, you could push changes t
 
 - [ ] **Mehul**
 
+<<<<<<< HEAD
+[x] **K Sai Rachna**
+=======
 - [ ] **K Sai Rachna**
+>>>>>>> upstream/master
 
 - [ ] **Aditi**
 
