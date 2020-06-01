@@ -37,11 +37,16 @@ Forking the repo will create your own copy of the repo, you could push changes t
 * Commit the changes push the commit to your forked repo and create a pull request as described above.
 
 ## Submission checklist
-[] Akshat
-[] Priyank
-[] Mehul
-[] K Sai Rachna
-[] Aditi
-[] Priyal
+[] **Akshat**
+
+[] **Priyank**
+
+[] **Mehul**
+
+[] **K Sai Rachna**
+
+[] **Aditi**
+
+[] **Priyal**
 
 #### Add x between [] before you name, like [] Akshat to [x] Akshat.
