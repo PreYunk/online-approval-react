@@ -16,7 +16,7 @@ Forking the repo will create your own copy of the repo, you could push changes t
 * Now we need to setup remote repo for your local repo. We forked the original repo, and cloned it to your local system right? but we still haven't connected your repo to main repo.
 * Type `git remote add upstream https://github.com/PreYunk/online-approval-react.git` if you cloned frontend repo or `git remote add upstream https://github.com/PreYunk/online-approval-api.git` if you cloned backend repo. What this does is add a remote reference named upstream to main repo.
 * We won't cover branches here as it won't be required for this project as of now.
-#### Your system is ready to use git.
+**Your system is ready to use git.**
 
 ## Steps to push your code to main repo.
 * Now with your local system setup, we need to push the changes to your forked repo and eventually to main repo.
@@ -41,16 +41,20 @@ Forking the repo will create your own copy of the repo, you could push changes t
 * Commit the changes push the commit to your forked repo and create a pull request as described above.
 
 ## Submission checklist
-[] **Akshat**
+- [ ] **Akshat**
 
-[] **Priyank**
+- [x] **Priyank**
 
-[] **Mehul**
+- [ ] **Mehul**
 
+<<<<<<< HEAD
 [x] **K Sai Rachna**
+=======
+- [ ] **K Sai Rachna**
+>>>>>>> upstream/master
 
-[] **Aditi**
+- [ ] **Aditi**
 
-[] **Priyal**
+- [ ] **Priyal**
 
-#### Add x between [] before your name, like [] Akshat to [x] Akshat.
+**Open the file and add x between [] before your name, like [] Akshat to [x] Akshat.**
