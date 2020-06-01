@@ -41,7 +41,7 @@ Forking the repo will create your own copy of the repo, you could push changes t
 * Commit the changes push the commit to your forked repo and create a pull request as described above.
 
 ## Submission checklist
-- [ ] **Akshat**
+- [x] **Akshat**
 
 - [x] **Priyank**
 
