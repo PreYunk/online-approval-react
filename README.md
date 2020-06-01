@@ -25,9 +25,13 @@ Forking the repo will create your own copy of the repo, you could push changes t
 * Now type `git add -A` what this does is it tells git to track all the files which were modified or added or deleted, its like putting all the changes into the container.
 * Now type `git commit -m "Short message as what was changed"` what this does is saves all your changes and create a reference, its like bookmarking or creating a checkpoint, or in our analogy packing up our container.
 * Now we need to upload the code to your forked repo, type `git push origin master`, now there are 3 new terms
+
   `push` tells git to upload the code to the provided reference
+
   `origin` is the reference to your forked repo automatically added, remember we added the reference to main repo named `upstream`, you can check with `git remote -v` command.
+
   `master` is the name of branch you want to upload.
+
 * After the step navigate to your forked repo in github, you could see the option of pull request available, now what pull request is, it is basically a request sent to the main repo to merge your uploaded changes into the main repo.
 * Click it to create a pull request, your changes will be incorporated within 24 hrs.
 
