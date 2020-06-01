@@ -43,7 +43,7 @@ Forking the repo will create your own copy of the repo, you could push changes t
 ## Submission checklist
 [] **Akshat**
 
-[] **Priyank**
+[x] **Priyank**
 
 [] **Mehul**
 
