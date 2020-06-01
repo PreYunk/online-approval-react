@@ -53,4 +53,4 @@ Forking the repo will create your own copy of the repo, you could push changes t
 
 - [ ] **Priyal**
 
-** Open the file and add x between [] before your name, like [] Akshat to [x] Akshat.**
+**Open the file and add x between [] before your name, like [] Akshat to [x] Akshat.**
