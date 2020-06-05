@@ -1,0 +1,53 @@
+.Wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 50%;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: "tommy";
+    height: 50%;
+
+
+}
+
+li {
+    z-index: 100;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+    height: 50%;
+    transition: all 200ms ease-in;
+    color: gray;
+    background-color: transparent;
+}
+
+li::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 200ms ease-in;
+    border-radius: 10px;
+    background-color: transparent;
+    transform: scale(0.9);
+}
+
+li:hover {
+    color: black;
+
+}
+
+li:hover::after {
+    transform: scale(1);
+    background-color: #90a0ff31;
+}

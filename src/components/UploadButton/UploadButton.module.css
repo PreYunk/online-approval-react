@@ -1,0 +1,35 @@
+.UploadButton {
+    z-index: 100;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+    height: 20%;
+    transition: all 200ms ease-in;
+    color: gray;
+    background-color: transparent;
+}
+
+.UploadButton::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 200ms ease-in;
+    border-radius: 10px;
+    background-color: transparent;
+    transform: scale(0.9);
+}
+
+.UploadButton:hover {
+    color: black;
+
+}
+
+.UploadButton:hover::after {
+    transform: scale(1);
+    background-color: #ffcb9031;
+}

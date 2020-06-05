@@ -1,0 +1,10 @@
+.Wrapper {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    border-radius: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    height: 100vh;
+}
