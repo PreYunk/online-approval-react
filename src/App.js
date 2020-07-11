@@ -7,14 +7,9 @@ import history from "./utils/history";
 import PrivateRoute from "./components/PrivateRoute";
 import DesktopApp from './components/DesktopApp/DesktopApp';
 import Main from "./components/Main/Main";
+import FBProtectedRoute from './components/hoc/FBProtectedRoute';
 
 function App() {
-
-  const { loading } = useAuth0();
-
-  if (loading) {
-    return <div>loading...</div>
-  }
 
   return (
     <div className="App">
@@ -22,7 +17,7 @@ function App() {
         <Switch>
           {/* <PrivateRoute path="/" exact /> */}
           <Route path="/" exact component={Main}/>
-          <PrivateRoute path="/main" component={DesktopApp} />
+          <FBProtectedRoute path="/main" component={DesktopApp} />
         </Switch>
       </Router>
     </div>

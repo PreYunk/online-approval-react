@@ -1,4 +1,5 @@
 import React, { useEffect, Component } from "react";
+import StyledFirebaseAuth from "react-firebaseui";
 import { Route } from "react-router-dom";
 import { useAuth0 } from "../react-auth0-spa";
 
