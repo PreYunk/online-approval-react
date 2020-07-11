@@ -1,0 +1,13 @@
+.btn{
+
+    height:50px;
+    border-radius: 5px;
+    width:100px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: lightgrey;
+    background-color: lightskyblue;
+    font-size: medium;
+    margin: 25px;
+}
+

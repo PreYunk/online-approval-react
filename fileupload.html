@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Upload Documents</title>
+        <meta charset="utf-8">
+       
+        <script >
+
+            function uploadfile(){
+            var file = document.getElementById("upload").files[0];
+            console.log(file);
+
+        }
+        </script>
+    </head>
+    <body>
+       
+        <form >
+            <input onchange="uploadfile()" type="file" id="upload" accept=".pdf,.doc"/>
+           
+          </form>
+    </body>
+</html>
