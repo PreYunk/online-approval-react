@@ -20,8 +20,8 @@
     width: 100%;
     transition: all 200ms ease-in;
     border-radius: 10px;
-    background-color: transparent;
     transform: scale(0.9);
+     background-color: #ffcb9031;
 }
 
 .UploadButton:hover {
@@ -31,5 +31,5 @@
 
 .UploadButton:hover::after {
     transform: scale(1);
-    background-color: #ffcb9031;
+
 }

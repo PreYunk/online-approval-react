@@ -9,8 +9,9 @@ const SidebarOptions = (props) => {
                 <li>Approved</li>
                 <li>Rejected</li>
                 <li>Waiting</li>
+                <li>Received</li>
             </ul>
-            <UploadButton/>
+            <UploadButton uploadHandler={(file) => props.uploadHandler(file)}/>
         </div>
     )
 }

@@ -5,7 +5,23 @@
 
 body {
   font-family: tommy;
-  background-color: #f0f0f0;
+  background-color: #c5d6fc38;
   margin: 0;
   padding: 0;
+}
+
+.Button {
+  background-color: #2079ff57;
+  border-radius: 5px;
+  color: rgb(31, 46, 255);
+  border: 0;
+  font-size: 1rem;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  transition: all 100ms ease-in;
+  font-family: "tommy";
+}
+
+.Button:hover {
+  transform: scale(1.1);
 }

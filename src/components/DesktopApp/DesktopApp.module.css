@@ -2,4 +2,12 @@
     width: 100%;
     display: flex;
     flex-flow: row;
+    align-items: center;
+}
+
+.MainArea {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+
 }

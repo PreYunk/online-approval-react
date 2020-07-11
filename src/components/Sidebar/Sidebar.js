@@ -7,7 +7,7 @@ const Sidebar = (props) => {
     return (
         <div className={classes.Wrapper}>
             <h2>Application Approval</h2>
-            <SidebarOptions/>
+            <SidebarOptions uploadHandler={(file) => props.uploadHandler(file)}/>
         </div>
     )
 }

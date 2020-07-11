@@ -2,11 +2,11 @@ import React from 'react';
 import "./App.css";
 import NavBar from "./components/Navbar";
 import { useAuth0 } from "./react-auth0-spa";
-import { Router, Route, Switch } from "react-router-dom";
-import Profile from "./components/Profile";
+import { Router, Route, Switch,HashRouter } from "react-router-dom";
 import history from "./utils/history";
 import PrivateRoute from "./components/PrivateRoute";
 import DesktopApp from './components/DesktopApp/DesktopApp';
+import Main from "./components/Main/Main";
 
 function App() {
 
@@ -18,15 +18,12 @@ function App() {
 
   return (
     <div className="App">
-      <Router history={history}>
-        {/* <header>
-          <NavBar />
-        </header>
+      <Router basename="/main" history={history}>
         <Switch>
-          <PrivateRoute path="/" exact />
-          <PrivateRoute path="/profile" component={Profile} />
-        </Switch> */}
-        <DesktopApp/>
+          {/* <PrivateRoute path="/" exact /> */}
+          <Route path="/" exact component={Main}/>
+          <PrivateRoute path="/main" component={DesktopApp} />
+        </Switch>
       </Router>
     </div>
   );
